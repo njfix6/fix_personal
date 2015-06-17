@@ -10,6 +10,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 	$routeProvider
 		.when('/', { //home page
+			templateUrl: 'views/main.html',
+			controller: 'main_controller'
+		})
+		.when('/winnie-the-pooh-wallpaper/', {
 			templateUrl: 'views/winnie_the_pooh_wallpaper.html'
 			// controller: 'playlists_controller'
 		});

@@ -1,4 +1,6 @@
-angular.module('playlist_controller', [])
-	.controller('playlist_controller', function($scope, $http, $location, api_service, Playlist) {
+angular.module('main_controller', [])
+	.controller('main_controller', function($scope) {
+		$scope.projects = ['winnie-the-pooh-wallpaper', 'other'];
 		
-	}
+		
+	})
