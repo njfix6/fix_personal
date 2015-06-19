@@ -16,6 +16,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		.when('/winnie-the-pooh-wallpaper/', {
 			templateUrl: 'views/winnie_the_pooh_wallpaper.html'
 			// controller: 'playlists_controller'
+		})
+		.when('/my-top-albums/', {
+			templateUrl: 'views/my_top_albums.html'
+			// controller: 'playlists_controller'
 		});
 	
 		
