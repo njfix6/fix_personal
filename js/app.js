@@ -1,7 +1,8 @@
 angular.module('peronal', [
 	'ngRoute', 
 	'appRoutes',
-	'main_controller'
+	'project_controller',
+	'Project_model'
 	
 	
 	
