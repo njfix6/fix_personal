@@ -1,7 +1,8 @@
 <div class="main_content container z-depth-1 center-align">
 	<!--cool-->
 	<div class = "playlist_titles" ng-repeat="project in projects">
-		<a href="/{{project.viewFileName}}">{{project.name}}</a>
+		<a href="/{{project.viewFileName}}">
+			<div class="text">{{project.name}}</div>
+		</a>
 	</div>
-	
 </div>

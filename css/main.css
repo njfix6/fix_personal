@@ -5,6 +5,12 @@
 .playlist_titles{
 	line-height: 50px;
 	font-size: 20px;
+	
+}
+
+
+.container{   /*fix later. this is overrighting materialize*/
+	padding: 0px;
 }
 
 .wtppicture{
