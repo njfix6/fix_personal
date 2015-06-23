@@ -1,5 +1,9 @@
+body{
+	/*background-color:salmon;*/
+}
 .main_content{
 	margin-top: 100px;
+	background-color:white;
 }
 
 .playlist_titles{
@@ -28,14 +32,24 @@
 	 /*height:50px;*/
 	 position:fixed;
 	 bottom:0px;
+	 background: white;
 
 }
 
 .insta{
-	line-height: 60px;
+	line-height: 80px;
 	font-size: 50px;
+	color: salmon;
 }
 
 .row{
 	margin:0px; /*fix later. this is overrighting materialize*/
+}
+
+.divider{
+	width: 80%;
+}
+
+.text{
+	color: salmon;
 }

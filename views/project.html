@@ -3,6 +3,26 @@
 	<div class = "playlist_titles" ng-repeat="project in projects">
 		<a href="/{{project.viewFileName}}">
 			<div class="text">{{project.name}}</div>
+			 <div class="divider container" ng-show="!$last"></div>
 		</a>
 	</div>
 </div>
+<footer class = "nav_bar z-depth-2">
+	<div class="row">
+		<div class="col s1 offset-s2 center-align">
+			<a href="https://instagram.com/nfix6/" target="_blank">
+				<i class="icon ion-social-instagram insta" width="500px"></i>
+			</a>
+		</div>
+		<div class="col s1 center-align">
+			<a href="https://github.com/njfix6/" target="_blank">
+				<i class="icon ion-social-github insta" width="500px"></i>
+			</a>
+		</div>
+		<div class="col s1 center-align">
+			<a href="mailto:njfix6@gmail.com" target="_blank">
+				<i class="icon ion-android-mail insta" width="500px"></i>
+			</a>
+		</div>
+	</div>
+</footer>
