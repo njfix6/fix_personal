@@ -1,9 +1,32 @@
+
+
+@font-face{
+	font-family: "FabfeltScript-Bold";
+	src: url("../fonts/FabfeltScript-Bold.otf");
+	
+}
+
+@font-face{
+	font-family: "SciFly-Sans";
+	src: url("../fonts/SciFly-Sans.ttf");
+}
+@font-face{
+	font-family: "Cylburn";
+	src: url("../fonts/Cylburn.ttf");
+}
+
+@font-face{
+	font-family: "Lucien-Free";
+	src: url("../fonts/Lucien-Free.otf");
+}
+
+
 body{
 	/*background-color:salmon;*/
 }
 .main_content{
-	margin-top: 100px;
 	background-color:white;
+	margin-top: 20px;
 }
 
 .playlist_titles{
@@ -37,7 +60,7 @@ body{
 }
 
 .insta{
-	line-height: 80px;
+	line-height: 70px;
 	font-size: 50px;
 	color: salmon;
 }
@@ -52,4 +75,54 @@ body{
 
 .text{
 	color: salmon;
+}
+
+.corn_cob{
+	margin-top: 10px;
+}
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.salmon_background{
+	background-color: salmon;
+	width: 100vw;
+	height: 90vh;
+}
+
+.main_title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fix_title{
+	font-family: "FabfeltScript-Bold";
+	/*font-family: "Cylburn";*/
+	/*font-family: "Lucien-Free";*/
+	font-size: 100px;
+}
+
+.amusement_title{
+	font-family: "SciFly-Sans";
+	/*font-family: "Lucien-Free";*/
+	font-size: 25px;
+	margin-top: -40px;
+	margin-left: 100px;
+}
+
+.stamp{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 20px;
+	background-color: indigo;
+	line-height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	color: white;
+	font-family: "FabfeltScript-Bold";
 }
