@@ -3,21 +3,15 @@
 	<div class = "playlist_titles">
 		<a href="https://instagram.com/nfix6/" target="_blank">
 			<i class="icon ion-social-instagram insta" width="500px"></i>
-			<div class="divider container" ng-show="!$last"></div>
 		</a>
-	</div>
-	<div class = "playlist_titles">
 		<a href="https://github.com/njfix6/" target="_blank">
 			<i class="icon ion-social-github insta" width="500px"></i>
-			<div class="divider container" ng-show="!$last"></div>
 		</a>
-	</div>
-	<div class = "playlist_titles">
 		<a href="mailto:njfix6@gmail.com" target="_blank">
 			<i class="icon ion-android-mail insta" width="500px"></i>
-			<div class="divider container" ng-show="!$last"></div>
 		</a>
 	</div>
+
 	
 	<div class = "playlist_titles" ng-repeat="project in projects">
 		<a href="/{{project.viewFileName}}">
@@ -25,5 +19,6 @@
 			<div class="divider container" ng-show="!$last"></div>
 		</a>
 	</div>
+	
 </div>
 
