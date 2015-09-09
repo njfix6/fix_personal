@@ -121,8 +121,20 @@ a{
 	font-family: cour,Courier,Monaco;
 	font-size: 30px;
 	margin-left: 10px;
+	
 }
 .proWord{
 	margin-top: 10px;
 	cursor: pointer;
+	
+}
+.proWord.disabled{
+	margin-top: 10px;
+	cursor: default;
+	color: grey;
+}
+
+
+.selected_tab{
+	color: black;
 }

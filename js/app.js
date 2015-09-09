@@ -38,14 +38,24 @@ setTimeout(function(){
 
 
 var Pro = function(name, id, template){
+    var self = this;
     this.name = name;
     this.id = id;
     this.template = template;
     this.clickListener = function(){
-    var temp = this;
-        $("."+this.id).click(function(){
+        $("."+self.id).click(function(){
             toggleBlur(500);
-            $('#main').html(temp.template);
+            $('.proWord').each(function(i, obj) {
+                var val = $(this);
+                if(val.hasClass("disabled")){
+                    val.toggleClass('disabled');
+                }
+               
+            });
+            $(this).toggleClass('disabled');
+           
+            
+            $('#main').html(self.template);
         });
     }
 };
@@ -54,7 +64,7 @@ var home_temp =
     "<img class='image' src='images/mike.jpeg'>"
 
 var travel_temp = 
-    "<img class='image' src='images/mike.jpeg'>";
+    "<img class='image' src='images/backpack.jpeg'>";
 var graph_temp = 
     "<img class='image' src='images/7_winnie_the_pooh_wallpaper.png'>"+
     "<img class='image' src='images/rochester_corn_cob_without_background.png'>";
@@ -71,4 +81,6 @@ for (var i in all_pros){
     i.clickListener();
 }
 
+
+$(".home").toggleClass('disabled');
 $('#main').html(home_temp);
