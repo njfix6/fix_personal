@@ -25,13 +25,17 @@
 }
 
 body{
-	margin: 0px;
+	/*margin: 0px;
 	width: 100vw;
-	height: 100vh;
-	/*overflow: hidden;*/
+	height: 100vh;*/
+	width: 100px;
+	background-size: 100vw ;
+	overflow: hidden;
+	background-image: url("../images/marathon.jpg");
+	background-repeat: no-repeat;
 }
 
-.sidebar{
+/*.sidebar{
 	color: transparent;
 
 
@@ -39,36 +43,36 @@ body{
 	height: 100vh;
 	position: fixed;
     z-index: 10;
-
-}
+}*/
 
 a{
 	text-decoration: none;
 }
 
 .iconBar{
-
+	/*background: black;*/
 	position: fixed;
     top: 50%;
     left: 50%;
- 
+ 	opacity: 0.75;
   	transform: translate(-50%, -50%);
 	
 }
 
 .myicon{
-	margin-top: 5px;
-	font-size: 80px;
+	/*margin-top: 5px;*/
+	font-size: 200px;
 	color: white;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 	display: inline-block;
 }
 
-.image{
+/*.image{
 	/*position: fixed;*/
 	width:100vw;
-       
-}
+    overflow: hidden;
+}*/
 
 
 #main{
@@ -90,14 +94,14 @@ a{
 	position: relative;
 }*/
 
-.shadow{
+/*.shadow{
 	background-color: black;
 	width: 100vw;
 	height: 100vh;
 	opacity: .75;
 	position: fixed;
 	z-index: 2;
-}
+}*/
 
 
 
@@ -105,7 +109,7 @@ a{
 
 
 #navicon{
-	font-size: 60px;
+	font-size: 200px;
 	margin-top: 5px;
 
 }
