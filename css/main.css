@@ -1,144 +1,16 @@
-
-
-@font-face{
-	font-family: "FabfeltScript-Bold";
-	src: url("../fonts/FabfeltScript-Bold.otf");
-	
+body {
+	/* background-color:  #D4AF37;; */
+	font-size: 12px;
+	margin-top: 50px;
 }
 
-@font-face{
-	font-family: "SciFly-Sans";
-	src: url("../fonts/SciFly-Sans.ttf");
-}
-@font-face{
-	font-family: "Cylburn";
-	src: url("../fonts/Cylburn.ttf");
-}
+.bigname {
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #D4AF37;
+	/* margin-bottom: ; */
+}	
 
-@font-face{
-	font-family: "Lucien-Free";
-	src: url("../fonts/Lucien-Free.otf");
-}
-@font-face{
-	font-family: "cour";
-	src: url("../fonts/cour.ttf");
-}
-
-body{
-	/*margin: 0px;
-	width: 100vw;
-	height: 100vh;*/
-	width: 100px;
-	background-size: 100vw ;
-	overflow: hidden;
-	background-image: url("../images/marathon.jpg");
-	background-repeat: no-repeat;
-}
-
-/*.sidebar{
-	color: transparent;
-
-
-	width: 300px;
-	height: 100vh;
-	position: fixed;
-    z-index: 10;
-}*/
-
-a{
-	text-decoration: none;
-}
-
-.iconBar{
-	/*background: black;*/
-	position: fixed;
-    top: 50%;
-    left: 50%;
- 	opacity: 0.75;
-  	transform: translate(-50%, -50%);
-	
-}
-
-.myicon{
-	/*margin-top: 5px;*/
-	font-size: 200px;
-	color: white;
-	margin-left: 15px;
-	margin-right: 15px;
-	display: inline-block;
-}
-
-/*.image{
-	/*position: fixed;*/
-	width:100vw;
-    overflow: hidden;
-}*/
-
-
-#main{
-	position: absolute;
-    /*-webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;*/
-	z-index: 1;
-}
-
-/*.blur{
-    background-size:cover;
-    -webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -ms-filter: blur(20px);
-    -o-filter: blur(20px);
-    filter: blur(20px);
-	position: relative;
-}*/
-
-/*.shadow{
-	background-color: black;
-	width: 100vw;
-	height: 100vh;
-	opacity: .75;
-	position: fixed;
-	z-index: 2;
-}*/
-
-
-
-
-
-
-#navicon{
-	font-size: 200px;
-	margin-top: 5px;
-
-}
-#navicon:hover{
-	cursor: pointer;
-	
-}
-
-.pro{
-	color: white;
-	margin-top: 30px;
-	/*font-family: SciFly-Sans;*/
-	font-family: cour,Courier,Monaco;
-	font-size: 30px;
-	margin-left: 10px;
-	
-}
-.proWord{
-	margin-top: 10px;
-	cursor: pointer;
-	
-}
-.proWord.disabled{
-	margin-top: 10px;
-	cursor: default;
-	color: grey;
-}
-
-
-.selected_tab{
-	color: black;
-}
+/* .icons {
+	font-size: 20px;
+} */
